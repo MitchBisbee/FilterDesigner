@@ -902,6 +902,6 @@ class GUI_Driver:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    iconPath = r"C:\Users\Owner\Desktop\EE436\Filter_Designer\my_icon.ico"
+    iconPath = r"my_icon.ico"
     my_gui = GUI_Driver(root,iconPath)
     root.mainloop()
