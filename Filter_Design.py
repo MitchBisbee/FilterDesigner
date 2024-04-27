@@ -5087,6 +5087,7 @@ class Buttersworth:
         return out
 
 if __name__ == "__main__":
+    #below is a demonstration of how to design a 4th analog Chebyshev HPF filter
     obj = Chebyshev(4)
     obj.krc4_HPF(89,1*10**-9)
   
